@@ -1,0 +1,23 @@
+.header {
+  background-color: var(--background-color);
+  padding: 15px 0;
+  text-align: center;
+}
+
+.header .container {
+  margin: 10px auto;
+}
+
+.logo {
+  height: 35px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 10px 0;
+  }
+
+  .logo {
+    height: 20px;
+  }
+}

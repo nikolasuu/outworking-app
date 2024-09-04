@@ -1,0 +1,58 @@
+.hero {
+  background-image: url('/side-view-colleagues-working-cozy-office.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+}
+
+.designed {
+  font-size: smaller;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 85dvh;
+    background-position: right;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+}
